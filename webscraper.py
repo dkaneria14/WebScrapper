@@ -22,10 +22,9 @@ print(grouped_results)
 # the dict key name and printing its value
 dict_key_prices = next(iter(grouped_results))
 price = grouped_results[dict_key_prices][0]
-price_of_air_pods_pro_two = price.replace("$", "")
-price_of_air_pods_pro_two = float(price_of_air_pods_pro_two)
-print(price_of_air_pods_pro_two)
-print()
+price_of_air_pods_pro = price.replace("$", "")
+price_of_air_pods_pro = float(price_of_air_pods_pro_2)
+
 
 
 def sendEmail(price_of_air_pods_pro_2):
